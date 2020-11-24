@@ -4,4 +4,4 @@
 branch_name=$(git symbolic-ref --short -q HEAD)
 git add .
 git commit -m "$1"
-proxychains git push origin "$branch_name"
+git push origin "$branch_name"
